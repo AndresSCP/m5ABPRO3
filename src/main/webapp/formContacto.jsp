@@ -9,7 +9,7 @@
 	crossorigin="anonymous">
 <link rel="stylesheet" href="css/Style.css">
 <script src="js/validaFormContacto.js"></script>
-<title>Formulario de Contactos</title>
+<title>-----Formulario de Contactos</title>
 <!-- Incluimos los archivos CSS de Bootstrap -->
 </head>
 <body>
