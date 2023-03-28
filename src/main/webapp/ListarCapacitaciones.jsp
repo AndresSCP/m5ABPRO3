@@ -18,7 +18,6 @@
 	<%@include file="extras/Navbar.jsp"%>
 <h1>Listado de Capacitaciones</h1>
 
-
 <%@ page import="java.util.ArrayList" %>
 <ul class="list-group">
   <% ArrayList<String> miLista = (ArrayList<String>) request.getAttribute("miLista");
