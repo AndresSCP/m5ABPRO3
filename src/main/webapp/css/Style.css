@@ -16,6 +16,8 @@ h2 {
 }
 
 #footer {
+	
+
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -24,3 +26,21 @@ h2 {
 #lista{
 		background-color: #f9f9f9;
 }
+
+#titulofoot{
+	background-color:#CACFD2;
+}
+
+#calendario{
+	background-color: #E5E7E9  ;
+}
+
+#bodycapacitacion{
+	background-image: url('../imagenes/violet1.jpg');
+}
+
+#bodycontacto{
+	background-image: url('../imagenes/violet1.jpg');
+}
+
+
