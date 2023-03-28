@@ -11,7 +11,7 @@
 <title>Formulario de Contacto</title>
 <!-- Incluimos los archivos CSS de Bootstrap -->
 </head>
-<body>
+<body id="bodycontacto">
 	<%@include file="extras/Navbar.jsp"%>
 	<body style="background-color: Lavender;">
 	<div class="container">
