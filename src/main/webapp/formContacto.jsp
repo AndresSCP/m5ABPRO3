@@ -8,7 +8,8 @@
 	integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
 	crossorigin="anonymous">
 <link rel="stylesheet" href="css/Style.css">
-<title>Formulario de Contacto</title>
+<script src="js/validaFormContacto.js"></script>
+<title>Formulario de Contactos</title>
 <!-- Incluimos los archivos CSS de Bootstrap -->
 </head>
 <body>
@@ -24,7 +25,7 @@
 
 			<div class="form-group">
 				<label for="email">Correo electrónico:</label>
-				<input type="email" id="email" name="email" class="form-control" required>
+				<input type="email" id="email" name="email" class="form-control email" required>
 			</div>
 
 			<div class="form-group">
@@ -41,12 +42,11 @@
 		</form>
 	</div>
 	<!-- Incluimos los archivos JS de Bootstrap -->
-		<script
-		src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
 		integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
 		crossorigin="anonymous"></script>
-	<script
-		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+		<script src="js/validaFormContacto.js"></script>
+	<script	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
 		integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
 		crossorigin="anonymous"></script>
 
