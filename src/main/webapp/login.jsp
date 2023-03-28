@@ -21,8 +21,8 @@
 
 				<form class="mx-auto pt-5" action="Login" method="POST">
 					<div class="mb-3">
-						<label for="imputUsuario" class="form-label">Usuario</label> <input
-							type="text" class="form-control" id="inputUsuario"
+						<label for="imputUsuario" class="form-label">RUN</label> <input
+							type="text" pattern="\d{7,8}[-]?\d{1}|(K|k)" required title="El RUT debe tener el formato 11111111-1 o 11111111K." class="form-control" id="inputUsuario"
 							name="inputUsuario" aria-describedby="Help">
 						<div id="Help" class="form-text"></div>
 					</div>

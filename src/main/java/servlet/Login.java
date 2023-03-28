@@ -13,17 +13,19 @@ import javax.servlet.http.HttpSession;
 @WebServlet("/Login")
 public class Login extends HttpServlet {
     private static final long serialVersionUID = 1L;
+	 String username = "";
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String username = request.getParameter("inputUsuario");
+		String rutConDV = request.getParameter("inputUsuario");
+		String[] partes = rutConDV.split("-");		
+		int userRun = Integer.parseInt(partes[0]);
         String password = request.getParameter("password");
+        
+        boolean validCredentials = validateCredentials(userRun, password);
 
-        boolean validCredentials = validateCredentials(username, password);
-
-        if (validCredentials) {
-            HttpSession session = request.getSession();
-            session.setAttribute("username", username);
-
+        if (validCredentials) {            
+        	HttpSession session = request.getSession();
+        	session.setAttribute("username", username);
             // Crear una cookie de sesión con un tiempo de vida de 30 minutos
             Cookie cookie = new Cookie("JSESSIONID", session.getId());
             cookie.setMaxAge(1800);
@@ -45,11 +47,25 @@ public class Login extends HttpServlet {
 
     }
 
-    private boolean validateCredentials(String username, String password) {
-        if (username.equals("admin") && password.equals("1234")) {
-            return true;
-        } else {
+    private boolean validateCredentials(int userRun, String password) {
+        Object[][] usuarios = {
+                {15763620, "1234","david"},
+                {11111111, "1234", "andres"},
+                {22222222, "1234", "matias"},
+                {33333333, "1234", "jose"}
+            };
+            
+            for (Object[] usuario : usuarios) {
+            	int usuarioRun = (int) usuario[0];
+                String usuarioPassword = (String) usuario[1];
+                if (usuarioRun==userRun && usuarioPassword.equals(password)) {
+                	
+                	username = (String) usuario[2];
+                    
+                    return true;
+                }
+            }
+            
             return false;
-        }
     }
 }
