@@ -32,11 +32,11 @@ public class ListarCapServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// Llamamos a la página JSP del formulario de contacto
-		miArrayList.add("|---------------Capacitación--------------|----Rut----|-----Día-----|-----Hora-----|-------Lugar------|------Duración ------|-Cantidad Asistentes-|");
-		miArrayList.add("Especialidad DevOps-------------------------admin-----Lunes------09:00 AM-----Viña del Mar---------108 horas------------20");
-		miArrayList.add("Aplicaciones Full Stack JavaScript Trainee---admin----Martes-----09:00 AM-----Viña del Mar---------208 horas-------------10");
-		miArrayList.add("Aplicaciones Full Stack Java Trainee---------admin----Miercoles--09:00 AM-----Viña del Mar---------308 horas-------------30");
-		miArrayList.add("Aplicaciones Front-End Trainee	-------------admin----Jueves-----09:00 AM------Viña del Mar--------408 horas--------------40");
+//		miArrayList.add("|---------------Capacitación--------------|----Rut----|-----Día-----|-----Hora-----|-------Lugar------|------Duración ------|-Cantidad Asistentes-|");
+//		miArrayList.add("Especialidad DevOps-------------------------admin-----Lunes------09:00 AM-----Viña del Mar---------108 horas------------20");
+//		miArrayList.add("Aplicaciones Full Stack JavaScript Trainee---admin----Martes-----09:00 AM-----Viña del Mar---------208 horas-------------10");
+//		miArrayList.add("Aplicaciones Full Stack Java Trainee---------admin----Miercoles--09:00 AM-----Viña del Mar---------308 horas-------------30");
+//		miArrayList.add("Aplicaciones Front-End Trainee	-------------admin----Jueves-----09:00 AM------Viña del Mar--------408 horas--------------40");
 		
 //		miArrayList.add("Capacitacion 1");
 //		 if (miArrayList != null) {
