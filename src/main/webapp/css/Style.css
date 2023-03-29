@@ -1,7 +1,7 @@
 @charset "ISO-8859-1";
 
 #bodyindex{
-	background-image: url('../imagenes/fondomorado.jpg')
+	background-image: url('../imagenes/celeste.jpg')
 }
 
 #bodylogin{
@@ -19,7 +19,7 @@ h2 {
 
 #parrafo1{
 	
-	background-image: url('../imagenes/violeta4.jpg')
+	background-image: url('../imagenes/azules1.jpg')
 }
 
 p{
@@ -60,6 +60,10 @@ p{
 
 #bodynav {
 	background-image: url('../imagenes/violeta2.jpg');
+}
+
+.image-container {
+padding-bot: 100%;
 }
 
 
