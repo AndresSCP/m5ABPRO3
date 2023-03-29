@@ -14,7 +14,7 @@
 <!-- <meta charset="ISO-8859-1"> -->
 <title>Lista Capacitaciones</title>
 </head>
-<body>
+<body id="bodylistado">
 	<%@include file="extras/Navbar.jsp"%>
 <h1>Listado de Capacitaciones</h1>
 

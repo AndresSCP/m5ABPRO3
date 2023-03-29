@@ -1,17 +1,28 @@
 @charset "ISO-8859-1";
 
+#bodyindex{
+	background-image: url('../imagenes/fondomorado.jpg')
+}
+
+#bodylogin{
+	background-image: url('../imagenes/violeta2.jpg')
+}
+
 h2 {
 	text-shadow: 2px 2px 5px black;
 	font-style: italic;
 }
 
 #quienesSomos {
-	background-color: grey;
-	color: white;
+	background-image: url('../imagenes/violeta5.jpg')
 }
 
 #parrafo1{
-	background-color: black;
+	
+	background-image: url('../imagenes/violeta4.jpg')
+}
+
+p{
 	color: white;
 }
 
@@ -24,23 +35,31 @@ h2 {
 }
 
 #lista{
-		background-color: #f9f9f9;
+	background-color: #f9f9f9;
 }
 
 #titulofoot{
-	background-color:#CACFD2;
+	background-image: url('../imagenes/violeta2.jpg');
 }
 
 #calendario{
-	background-color: #E5E7E9  ;
+	background-image: url('../imagenes/violeta2.jpg');
 }
 
 #bodycapacitacion{
-	background-image: url('../imagenes/violet1.jpg');
+	background-image: url('../imagenes/violeta5.jpg');
 }
 
 #bodycontacto{
-	background-image: url('../imagenes/violet1.jpg');
+	background-image: url('../imagenes/violeta5.jpg');
+}
+
+#bodylistado{
+	background-image: url('../imagenes/violeta5.jpg');
+}
+
+#bodynav {
+	background-image: url('../imagenes/violeta2.jpg');
 }
 
 
