@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <nav class="navbar navbar-expand-lg" id="bodynav">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.jsp">Inicio</a>
@@ -23,7 +23,7 @@
       			<ul class="navbar-nav">
 				<li class="nav-item"><a class="nav-link disabled">Usuario:
 						<%=session.getAttribute("username")%></a></li>
-				<li class="nav-item"><a class="nav-link" href="login.jsp">Cerrar sesión</a></li>
+				<li class="nav-item"><a class="nav-link" href="login.jsp">Cerrar sesiÃ³n</a></li>
 			</ul>      
     </div>
   </div>
