@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%> 
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%> 
    
 <!DOCTYPE html>
 <html>
@@ -35,18 +35,18 @@
 		<table class="table">
 			<thead>
 				<tr>
-					<th>Capacitaci髇</th>
+					<th>Capacitaci贸n</th>
 					<th>RUT</th>
-					<th>D韆</th>
+					<th>D铆a</th>
 					<th>Hora</th>
 					<th>Lugar</th>
-					<th>Duraci髇</th>
+					<th>Duraci贸n</th>
 					<th>Cantidad de Asistentes</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td>Capacitaci髇 1</td>
+					<td>Capacitaci贸n 1</td>
 					<td>12.345.678-9</td>
 					<td>01/04/2023</td>
 					<td>09:00 - 13:00</td>
@@ -55,7 +55,7 @@
 					<td>20</td>
 				</tr>
 				<tr>
-					<td>Capacitaci髇 2</td>
+					<td>Capacitaci贸n 2</td>
 					<td>98.765.432-1</td>
 					<td>03/04/2023</td>
 					<td>14:00 - 18:00</td>
@@ -64,7 +64,7 @@
 					<td>15</td>
 				</tr>
 				<tr>
-					<td>Capacitaci髇 3</td>
+					<td>Capacitaci贸n 3</td>
 					<td>11.223.344-5</td>
 					<td>05/04/2023</td>
 					<td>10:00 - 12:00</td>
@@ -73,7 +73,7 @@
 					<td>30</td>
 				</tr>
 				<tr>
-					<td>Capacitaci髇 4</td>
+					<td>Capacitaci贸n 4</td>
 					<td>11.223.344-5</td>
 					<td>05/04/2023</td>
 					<td>10:00 - 12:00</td>
