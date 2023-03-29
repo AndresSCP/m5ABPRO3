@@ -16,7 +16,7 @@ if (session.getAttribute("username") == null) {
 	crossorigin="anonymous">
 <link rel="stylesheet" href="css/Style.css">
 </head>
-<body>
+<body id="bodyindex">
 	<%@include file="extras/Navbar.jsp"%>
 <div class="container">	
 		<div class="row justify-content-center my-auto vh-100">

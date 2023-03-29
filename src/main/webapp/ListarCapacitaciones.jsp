@@ -14,11 +14,11 @@
 <!-- <meta charset="ISO-8859-1"> -->
 <title>Lista Capacitaciones</title>
 </head>
-<body>
+<body id="bodylistado">
 	<%@include file="extras/Navbar.jsp"%>
 <h1>Listado de Capacitaciones</h1>
 
-<%@ page import="java.util.ArrayList" %>
+<%-- <%@ page import="java.util.ArrayList" %>
 <ul class="list-group">
   <% ArrayList<String> miLista = (ArrayList<String>) request.getAttribute("miLista");
      if (miLista != null) {
@@ -29,8 +29,64 @@
      else { %>
          <li class="list-group-item">No hay capacitaciones disponibles.</li>
   <% } %>
-</ul>
-<footer><%@include file="extras/footer.jsp"%></footer>
+</ul> --%>
+
+	<div class="container">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Capacitación</th>
+					<th>RUT</th>
+					<th>Día</th>
+					<th>Hora</th>
+					<th>Lugar</th>
+					<th>Duración</th>
+					<th>Cantidad de Asistentes</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Capacitación 1</td>
+					<td>12.345.678-9</td>
+					<td>01/04/2023</td>
+					<td>09:00 - 13:00</td>
+					<td>Sala A</td>
+					<td>4 horas</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<td>Capacitación 2</td>
+					<td>98.765.432-1</td>
+					<td>03/04/2023</td>
+					<td>14:00 - 18:00</td>
+					<td>Sala B</td>
+					<td>4 horas</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>Capacitación 3</td>
+					<td>11.223.344-5</td>
+					<td>05/04/2023</td>
+					<td>10:00 - 12:00</td>
+					<td>Sala C</td>
+					<td>2 horas</td>
+					<td>30</td>
+				</tr>
+				<tr>
+					<td>Capacitación 4</td>
+					<td>11.223.344-5</td>
+					<td>05/04/2023</td>
+					<td>10:00 - 12:00</td>
+					<td>Sala W</td>
+					<td>100 horas</td>
+					<td>40</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+	<footer><%@include file="extras/footer.jsp"%></footer>
 <script
 	src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
 	integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

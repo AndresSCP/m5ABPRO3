@@ -12,7 +12,7 @@
 	crossorigin="anonymous">
 <link rel="stylesheet" href="css/Style.css">
 </head>
-<body>
+<body id="bodylogin">
 <h1 class="text-center">Inicio de sesión</h1>
 
 	<div class="conteiner-fluid">
