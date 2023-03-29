@@ -1,4 +1,4 @@
-// ------- horarioy fecha -------
+// ------- horario y fecha -------
 
  let contenedor = document.getElementById('calendario');
 const semana = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];
